@@ -73,6 +73,7 @@ footer {
     display: grid;
     grid-template-columns: 70% 30%;
 }
+
 form{
     width: 650px;
     margin: 0 auto;
