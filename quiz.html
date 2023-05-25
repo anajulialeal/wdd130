@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="BYU-Idaho, WDD130, HTML Form - User Poll, Student Ana Hiramatsu">
+  <meta name="author" content="Ana Hiramatsu">
+  <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Ana Hiramatsu | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name: 
+                        <input type="text" id="fullname" name="fullname">
+                    </label>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email: 
+                        <input type="email" id="useremail" name="useremail">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Questions
+                </legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?
+                        <select name="browser" id="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?
+                        <input type="checkbox" id="pet" name="pet">
+                    </label>
+                </div>
+                <label for="feedback">List the places you have lived:
+                    <textarea name="feedback" id="feedback" cols="50" rows="3">
+                    </textarea>
+                </label>
+            </fieldset>
+            <button type="submit">
+                Submit Poll
+            </button>
+        </form>
+    </main>
+    <footer>
+        <p>2023 | HTML Form - User Poll Activity | Ana Hiramatsu</p>
+    </footer>
+</body>
+</html>
