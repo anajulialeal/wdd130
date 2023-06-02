@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');/* done */
 
 :root {
-    --primary-color: #22577A;/* headings */
-    --secondary-color: #38A3A5;
-    --accent1-color: #76f1e3;/* background */
+    --primary-color: ##a1cca5;/* headings */
+    --secondary-color: #8fb996;
+    --accent1-color: #8fb996;/* background */
     --accent2-color: #C7F9CC;
 
     --heading-font: 'Antic Slab', Arial, serif;
     --paragraph-font: 'Noto Sans', Arial, sans-serif;/* done */
 
-    --nav-background-color: #76f1e3;
-    --nav-link-color: #4a7591;
+    --nav-background-color: #8fb996;
+    --nav-link-color: #ffffff;
     --nav-hover-link-color: #78bdeb;
     --nav-hover-background-color: #C7F9CC;/* done */
 }
