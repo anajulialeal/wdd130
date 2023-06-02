@@ -82,7 +82,15 @@ form{
     background-color:#8fb996;
     padding: 1rem;
 }
-
+button {
+    margin: 1rem;
+    background-color: #26a337;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
 /* Class Selectors */
 .hero {
     position: relative;
