@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');/* done */
 
 :root {
-    --primary-color: ##a1cca5;/* headings */
+    --primary-color: #000000;/* headings */
     --secondary-color: #8fb996;
     --accent1-color: #8fb996;/* background */
     --accent2-color: #C7F9CC;
