@@ -1,3 +1,10 @@
+/* Reset universal (ADICIONADO) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -23,6 +30,10 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+
+    /* ADICIONADO */
+    float: right;
+    margin: 1rem;
 }
 
 p {
@@ -31,12 +42,24 @@ p {
 
 aside {
     width: 20rem;
+
+    /* MANTIVE seu estilo original */
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
+
+    /* ADICIONADO (para overlay funcionar) */
+    position: relative;
+}
+
+aside h2 {
+    /* ADICIONADO */
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 aside img {
@@ -48,4 +71,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors (ADICIONADO) */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
