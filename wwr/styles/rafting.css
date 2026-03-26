@@ -1,7 +1,6 @@
 :root {
     --primary-color: #1b4965;
     --accent1-color: #5fa8d3;
-    --accent2-color: #bee9e8;
     --heading-font: Arial, sans-serif;
     --body-font: Verdana, sans-serif;
 }
@@ -58,7 +57,7 @@ nav a {
     width: 100%;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--primary-color);
     padding: 10px;
     opacity: 0.8;
 }
