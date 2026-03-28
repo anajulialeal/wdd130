@@ -104,7 +104,8 @@ nav a {
 }
 
 .adventure-gallery {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
 }
 
