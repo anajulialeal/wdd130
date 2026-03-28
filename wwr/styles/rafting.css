@@ -70,7 +70,7 @@ nav a {
     width: 100%;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffffff;
     padding: 10px;
     opacity: 0.9;
 }
