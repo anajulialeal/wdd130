@@ -31,9 +31,8 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    margin: 20px auto;
 }
 
 header img {
@@ -41,10 +40,10 @@ header img {
 }
 
 nav ul {
-    list-style: none;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
+    flex-wrap: nowrap;
 }
 
 nav a {
@@ -53,6 +52,7 @@ nav a {
     background-color: var(--primary-color);
     padding: 8px 12px;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .hero {
