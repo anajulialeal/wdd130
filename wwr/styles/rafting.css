@@ -1,8 +1,14 @@
 :root {
     --primary-color: #1b4965;
     --accent1-color: #2c7da0;
-    --heading-font: Arial, sans-serif;
-    --body-font: Verdana, sans-serif;
+
+    h1,
+    h2 {
+        font-family: var(--heading-font);
+    }
+
+    --body-font: Verdana,
+    sans-serif;
 }
 
 * {
